@@ -222,3 +222,5 @@ newactintervals <- summarise_each(newactintervals, funs(mean))
 Then we make the plot:
 
 ![](PA1_template_files/figure-html/unnamed-chunk-18-1.png) 
+
+From the plots it is clear that there are differences in activity patterns between weekdays and weekends.

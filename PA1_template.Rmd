@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
 output: 
-  html_document:
+  html_document: 
     keep_md: true
 ---
 
@@ -176,3 +176,5 @@ g <- xyplot(steps ~ interval | f, data = newactintervals,
 print(g)
 
 ```
+
+From the plots it is clear that there are differences in activity patterns between weekdays and weekends.
